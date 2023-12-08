@@ -4,9 +4,181 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/public/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
+
   <body>
-    <h1 class="text-8xl font-bold underline">Hello world!</h1>
-    <p class="text-xl text-red-300">Lost</p>
+    <div class="grid lg:grid-cols-6">
+      <!-- Header -->
+      <header class="">
+        <nav class="mt-5 mr-5">
+          <!-- Burger menu -->
+          <div class="text-right cursor-pointer lg:hidden mb-3" id="burger">
+            <i class="fa-solid fa-burger text-3xl"></i>
+          </div>
+          <ul class="hidden lg:block" id="menu">
+            <div
+              class="flex flex-row-reverse gap-2 justify-start items-center text-black"
+            >
+              <i class="fa-solid fa-house"></i>
+              <a href=""><li class="text-2xl lg:text-lg uppercase">Home</li></a>
+            </div>
+            <div
+              class="flex flex-row-reverse gap-2 justify-start items-center text-black"
+            >
+              <i class="fa-solid fa-guitar"></i>
+              <a href="">
+                <li class="text-2xl lg:text-lg uppercase">Services</li></a
+              >
+            </div>
+            <div
+              class="flex flex-row-reverse gap-2 justify-start items-center text-black"
+            >
+              <i class="fa-solid fa-address-card"></i>
+              <a href="">
+                <li class="text-2xl lg:text-lg uppercase">About</li>
+              </a>
+            </div>
+            <div
+              class="flex flex-row-reverse gap-2 justify-start items-center text-black"
+            >
+              <i class="fa-solid fa-message"></i>
+              <a href="">
+                <li class="text-2xl lg:text-lg uppercase">Contact</li>
+              </a>
+            </div>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <main class="bg-gray-50 lg:col-span-5 h-full">
+        <div class="mt-10">
+          <h1 class="text-5xl text-blue-400 font-bold text-center">
+            Make Music
+          </h1>
+          <p class="text-3xl text-center font-light">
+            Le paradis des guitaristes
+          </p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 m-10">
+            <!-- Card -->
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic1.jpg"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl text-center lg:text-left">
+                  La guitare de vos rêves
+                </h2>
+                <h3 class="text-lg text-center lg:text-left">
+                  Les paul 50 GOLDTOP
+                </h3>
+                <p class="mt-4 text-center lg:text-left">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -20 %</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic2.jpg"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl">La guitare de vos rêves</h2>
+                <h3 class="text-lg">Les paul 50 GOLDTOP</h3>
+                <p class="mt-4">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -30 %</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic3.jpg"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl">La guitare de vos rêves</h2>
+                <h3 class="text-lg">Les paul 50 GOLDTOP</h3>
+                <p class="mt-4">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -10 %</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic4.jpg"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl">La guitare de vos rêves</h2>
+                <h3 class="text-lg">Les paul 50 GOLDTOP</h3>
+                <p class="mt-4">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -20 %</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic5.jpg"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl">La guitare de vos rêves</h2>
+                <h3 class="text-lg">Les paul 50 GOLDTOP</h3>
+                <p class="mt-4">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -30 %</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="w-full h-64 object-contain"
+                src="./images/pic6.png"
+                alt=""
+              />
+              <div class="m-6">
+                <h2 class="text-xl">La guitare de vos rêves</h2>
+                <h3 class="text-lg">Les paul 50 GOLDTOP</h3>
+                <p class="mt-4">
+                  On ne la présente plus, cette guitare a marqué les époques
+                  avec son son unique et sa capacité à faire rêver chacun
+                  d'entre nous.
+                </p>
+                <span class="badges"> -30 %</span>
+              </div>
+
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer></footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
